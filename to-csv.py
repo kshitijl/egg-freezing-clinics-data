@@ -1,5 +1,4 @@
 #!python3
-#!python3
 
 import os
 import json
@@ -34,14 +33,92 @@ def extract_array_field(data: List[List[Any]], key_name: str) -> Optional[Any]:
 
 
 def extract_table_field(
-    data: Dict[str, Any], table_path: str, row_index: int, col_index: int
+    data: Dict[str, Any], table_path: str, row_name: str, age_group: str
 ) -> Optional[Any]:
-    """Extract a value from a table structure at specified row and column indices."""
+    """Extract a value from a table structure based on row name and age group."""
     table = extract_nested_field(data, table_path)
-    if table and "DataRows" in table and len(table["DataRows"]) > row_index:
-        row = table["DataRows"][row_index]
-        if len(row) > col_index:
-            return row[col_index]
+    if not table or "DataRows" not in table or "RowHeaders" not in table:
+        return None
+
+    # Find the row with the matching row name
+    row_index = -1
+    for i, row in enumerate(table["DataRows"]):
+        if len(row) > 0 and row[0] == row_name:
+            row_index = i
+            break
+
+    if row_index == -1:
+        return None
+
+    # Find the column index for the age group
+    col_index = -1
+    if isinstance(table["RowHeaders"], list):
+        try:
+            col_index = table["RowHeaders"].index(age_group)
+        except ValueError:
+            # Try looking for age group in first row if RowHeaders doesn't contain it
+            pass
+
+    # If not found in RowHeaders, check if it's a list of strings (new structure)
+    if col_index == -1 and len(table["DataRows"]) > 0:
+        headers = table["RowHeaders"]
+        try:
+            col_index = headers.index(age_group)
+        except (ValueError, TypeError):
+            # Age group not found
+            return None
+
+    # Get the value at the intersection of row and column
+    if col_index != -1 and row_index != -1:
+        row_data = table["DataRows"][row_index]
+        if len(row_data) > col_index:
+            return row_data[col_index]
+
+    return None
+
+
+def extract_summary_table_field(
+    data: Dict[str, Any], table_path: str, row_name: str, age_group: str
+) -> Optional[Any]:
+    """Extract a value from the Summary table structure based on row name and age group."""
+    table = extract_nested_field(data, table_path)
+    if not table or "DataRows" not in table or "RowHeaders" not in table:
+        return None
+
+    # Find the row with the matching row name
+    row_index = -1
+    for i, row in enumerate(table["DataRows"]):
+        if len(row) > 0 and row[0] == row_name:
+            row_index = i
+            break
+
+    if row_index == -1:
+        return None
+
+    # Get the age group column index
+    # For Summary section, RowHeaders typically has age groups as items
+    age_group_index = -1
+    row_headers = table["RowHeaders"]
+
+    if isinstance(row_headers, list):
+        try:
+            age_group_index = row_headers.index(age_group)
+        except ValueError:
+            # Age group not found in list
+            pass
+
+    # If age group not found and row_headers is a string, we need a different approach
+    if age_group_index == -1:
+        # Hardcoded age group indices based on the structure observed
+        age_group_mapping = {"<35": 1, "35-37": 2, "38-40": 3, ">40": 4}
+        age_group_index = age_group_mapping.get(age_group, -1)
+
+    # Get the value at the intersection
+    if age_group_index != -1 and row_index != -1:
+        row_data = table["DataRows"][row_index]
+        if len(row_data) > age_group_index:
+            return row_data[age_group_index]
+
     return None
 
 
@@ -103,8 +180,16 @@ def extract_field(data: Dict[str, Any], field_selector: Dict[str, Any]) -> Any:
         return extract_table_field(
             data,
             field_selector["table_path"],
-            field_selector["row_index"],
-            field_selector["col_index"],
+            field_selector["row_name"],
+            field_selector.get("age_group", "<35"),
+        )
+
+    elif selector_type == "summary_table":
+        return extract_summary_table_field(
+            data,
+            field_selector["table_path"],
+            field_selector["row_name"],
+            field_selector.get("age_group", "<35"),
         )
 
     elif selector_type == "question":
@@ -265,6 +350,91 @@ def main():
             "data_path": "PatientAndCycle.Data",
             "question_id": "Q210",
             "age_group": "<35",
+        },
+        # Summary table fields - newly added
+        "intended_retrievals_under35": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Number of intended retrievals",
+            "age_group": "<35",
+        },
+        "intended_retrievals_live_birth_under35": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Percentage of intended retrievals resulting in live-birth deliveries",
+            "age_group": "<35",
+        },
+        "intended_retrievals_singleton_live_birth_under35": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Percentage of intended retrievals resulting in singleton live-birth deliveries",
+            "age_group": "<35",
+        },
+        "actual_retrievals_under35": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Number of actual retrievals",
+            "age_group": "<35",
+        },
+        "actual_retrievals_live_birth_under35": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Percentage of actual retrievals resulting in live-birth deliveries",
+            "age_group": "<35",
+        },
+        "average_intended_retrievals_per_live_birth_under35": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Average number of intended retrievals per live-birth delivery",
+            "age_group": "<35",
+        },
+        "transfers_under35": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Number of transfers",
+            "age_group": "<35",
+        },
+        "transfers_35_37": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Number of transfers",
+            "age_group": "35-37",
+        },
+        "transfers_38_40": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Number of transfers",
+            "age_group": "38-40",
+        },
+        "transfers_40plus": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Number of transfers",
+            "age_group": ">40",
+        },
+        "percent_transfers_resulting_in_live_birth_under35": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Percentage of transfers resulting in live-birth deliveries",
+            "age_group": "<35",
+        },
+        "percent_transfers_resulting_in_live_birth_35_37": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Percentage of transfers resulting in live-birth deliveries",
+            "age_group": "35-37",
+        },
+        "percent_transfers_resulting_in_live_birth_38_40": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Percentage of transfers resulting in live-birth deliveries",
+            "age_group": "38-40",
+        },
+        "percent_transfers_resulting_in_live_birth_40plus": {
+            "type": "summary_table",
+            "table_path": "Summary.Table1",
+            "row_name": "Percentage of transfers resulting in live-birth deliveries",
+            "age_group": ">40",
         },
     }
 
