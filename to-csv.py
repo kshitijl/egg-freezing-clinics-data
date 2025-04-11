@@ -7,6 +7,36 @@ import re
 from typing import Any, Dict, List, Optional
 
 
+def extract_filtered_question_value_by_age(
+    data: Dict[str, Any],
+    data_path: str,
+    question_id: str,
+    filter_id: str,
+    age_group: str,
+) -> Optional[Any]:
+    """Extract value from filtered question table by QuestionId, FilterId, and Age Group."""
+    tables = extract_nested_field(data, data_path)
+    if not tables:
+        return None
+
+    for entry in tables:
+        if (
+            entry.get("QuestionId") == question_id
+            and entry.get("FilterId") == filter_id
+        ):
+            headers = entry.get("RowHeaders", [])
+            data_row = entry.get("DataRows", [])
+            if not headers or not data_row:
+                return None
+            try:
+                age_index = headers.index(age_group)
+                return data_row[age_index]
+            except ValueError:
+                return None
+
+    return None
+
+
 def extract_nested_field(data: Dict[str, Any], path: str) -> Any:
     """Extract a value from a nested dictionary using a dot-notation path."""
     parts = path.split(".")
@@ -198,6 +228,15 @@ def extract_field(data: Dict[str, Any], field_selector: Dict[str, Any]) -> Any:
             field_selector["data_path"],
             field_selector["question_id"],
             field_selector.get("age_group", "<35"),
+        )
+
+    elif selector_type == "filtered_question":
+        return extract_filtered_question_value_by_age(
+            data,
+            field_selector["data_path"],
+            field_selector["question_id"],
+            field_selector["filter_id"],
+            field_selector["age_group"],
         )
 
     return None
@@ -435,6 +474,13 @@ def main():
             "table_path": "Summary.Table1",
             "row_name": "Percentage of transfers resulting in live-birth deliveries",
             "age_group": ">40",
+        },
+        "percent_transfers_resulting_in_single_term_normal_weight_live_delivery_under35": {
+            "type": "filtered_question",
+            "data_path": "SuccessRateOwnEggs.Data",
+            "question_id": "Q021",
+            "filter_id": "F009",
+            "age_group": "<35",
         },
     }
 
