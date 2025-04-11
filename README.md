@@ -1,6 +1,7 @@
 # Comparing egg freezing clinics: how much they do and how often they succeed
 
 Here's a spreadsheet of the numbers: https://docs.google.com/spreadsheets/d/1jKBv5hCiNwW5xj5uuZt8c-nWPUVwOQdoIPpOOIM3Re0/edit?usp=sharing
+
 Here's a map of the clinics: https://www.google.com/maps/d/edit?mid=1S83q4YGx8PDlHf0WsteWSHJGSUx-vMw&ll=40.738885362710654,-73.9075958112087&z=12
 
 # What if I don't live in/near NYC?
