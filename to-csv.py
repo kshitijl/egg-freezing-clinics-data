@@ -1,4 +1,5 @@
 #!python3
+#!python3
 
 import os
 import json
@@ -44,6 +45,48 @@ def extract_table_field(
     return None
 
 
+def extract_question_data(
+    data: Dict[str, Any], data_path: str, question_id: str
+) -> Optional[Dict[str, Any]]:
+    """Extract question data for a specific question ID."""
+    questions_data = extract_nested_field(data, data_path)
+    if not questions_data:
+        return None
+
+    for question_data in questions_data:
+        if question_data.get("QuestionId") == question_id:
+            return question_data
+    return None
+
+
+def extract_question_value_by_age(
+    data: Dict[str, Any], data_path: str, question_id: str, age_group: str = "<35"
+) -> Optional[Any]:
+    """Extract the value for a specific question ID and age group."""
+    question_data = extract_question_data(data, data_path, question_id)
+    if not question_data or "DataRows" not in question_data:
+        return None
+
+    # Find the age group index in row headers
+    row_headers = question_data.get("RowHeaders", [])
+    if not row_headers:
+        return None
+
+    try:
+        age_index = row_headers.index(age_group)
+    except ValueError:
+        # Age group not found in headers
+        return None
+
+    # Get the value from the first data row at the age group index
+    if question_data["DataRows"] and len(question_data["DataRows"]) > 0:
+        data_row = question_data["DataRows"][0]
+        if len(data_row) > age_index:
+            return data_row[age_index]
+
+    return None
+
+
 def extract_field(data: Dict[str, Any], field_selector: Dict[str, Any]) -> Any:
     """Extract a field using various selector types."""
     selector_type = field_selector["type"]
@@ -62,6 +105,14 @@ def extract_field(data: Dict[str, Any], field_selector: Dict[str, Any]) -> Any:
             field_selector["table_path"],
             field_selector["row_index"],
             field_selector["col_index"],
+        )
+
+    elif selector_type == "question":
+        return extract_question_value_by_age(
+            data,
+            field_selector["data_path"],
+            field_selector["question_id"],
+            field_selector.get("age_group", "<35"),
         )
 
     return None
@@ -113,7 +164,6 @@ def main():
     output_csv_file = "fertility_centers_data.csv"
 
     # Define field selectors
-    # Define field selectors for the specific fields requested
     field_selectors = {
         # Clinic information fields
         "facility_name": {
@@ -161,7 +211,63 @@ def main():
             "array_path": "ServicesAndProfiles.Profile",
             "key": "Total infants born",
         },
+        # Patient and Cycle Questions - extracting <35 age group data
+        "patients_under_35": {
+            "type": "question",
+            "data_path": "PatientAndCycle.Data",
+            "question_id": "Q001",
+            "age_group": "<35",
+        },
+        "own_eggs_and_embryos_under35": {
+            "type": "question",
+            "data_path": "PatientAndCycle.Data",
+            "question_id": "Q003",
+            "age_group": "<35",
+        },
+        "retrievals_discontinued_without_any_eggs_under35": {
+            "type": "question",
+            "data_path": "PatientAndCycle.Data",
+            "question_id": "Q005",
+            "age_group": "<35",
+        },
+        "percent_used_for_fertility_preservation_under35": {
+            "type": "question",
+            "data_path": "PatientAndCycle.Data",
+            "question_id": "Q006",
+            "age_group": "<35",
+        },
+        "discontinued_after_retrieval_before_transfer_or_banking_under35": {
+            "type": "question",
+            "data_path": "PatientAndCycle.Data",
+            "question_id": "Q101",
+            "age_group": "<35",
+        },
+        "discontinued_before_transfer_or_banking_under35": {
+            "type": "question",
+            "data_path": "PatientAndCycle.Data",
+            "question_id": "Q102",
+            "age_group": "<35",
+        },
+        "percent_transfers_using_frozen_embryos_under35": {
+            "type": "question",
+            "data_path": "PatientAndCycle.Data",
+            "question_id": "Q008",
+            "age_group": "<35",
+        },
+        "percent_transfers_using_single_embryo_under35": {
+            "type": "question",
+            "data_path": "PatientAndCycle.Data",
+            "question_id": "Q110",
+            "age_group": "<35",
+        },
+        "average_number_of_embryos_transerred_under35": {
+            "type": "question",
+            "data_path": "PatientAndCycle.Data",
+            "question_id": "Q210",
+            "age_group": "<35",
+        },
     }
+
     # Process the files
     process_json_files(input_directory, output_csv_file, field_selectors)
 
