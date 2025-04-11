@@ -1,0 +1,362 @@
+{
+  "Tab5Description": {
+    "RowHeaders": "The Clinic Data Summary provides a full snapshot of clinic services and profile, patient characteristics, and ART success rates. <BR><BR>DISCLAIMER: Patient medical characteristics, such as age, diagnosis, and ovarian reserve, affect the success of ART treatment. Comparison of success rates across clinics may not be meaningful due to differences in patient populations and ART treatment methods. The success rates displayed here do not reflect any one patient's chance of success. Patients should consult with a doctor to understand their chance of success based on their own characteristics."
+  },
+  "Table1": {
+    "TableHeader": "Data Verified By: Aimee Seungdamrong, MD",
+    "RowHeaders": [
+      "All patients (with or without prior ART cycles)",
+      "<35",
+      "35-37",
+      "38-40",
+      ">40",
+      "Bkgrnd"
+    ],
+    "DataRows": [
+      [
+        "Number of intended retrievals",
+        "57",
+        "64",
+        "72",
+        "23",
+        true
+      ],
+      [
+        "Percentage of intended retrievals resulting in live-birth deliveries",
+        "52.6%",
+        "37.5%",
+        "23.6%",
+        "13.0%",
+        false
+      ],
+      [
+        "Percentage of intended retrievals resulting in singleton live-birth deliveries",
+        "52.6%",
+        "37.5%",
+        "23.6%",
+        "13.0%",
+        false
+      ],
+      [
+        "Number of actual retrievals",
+        "51",
+        "51",
+        "64",
+        "20",
+        true
+      ],
+      [
+        "Percentage of actual retrievals resulting in live-birth deliveries",
+        "58.8%",
+        "47.1%",
+        "26.6%",
+        "15.0%",
+        false
+      ],
+      [
+        "Percentage of actual retrievals resulting in singleton live-birth deliveries",
+        "58.8%",
+        "47.1%",
+        "26.6%",
+        "15.0%",
+        false
+      ],
+      [
+        "Number of transfers",
+        "53",
+        "45",
+        "27",
+        "9",
+        true
+      ],
+      [
+        "Percentage of transfers resulting in live-birth deliveries",
+        "56.6%",
+        "53.3%",
+        "63.0%",
+        "*/9",
+        false
+      ],
+      [
+        "Percentage of transfers resulting in singleton live-birth deliveries",
+        "56.6%",
+        "53.3%",
+        "63.0%",
+        "*/9",
+        false
+      ],
+      [
+        "Average number of intended retrievals per live-birth delivery",
+        "1.9",
+        "2.7",
+        "4.2",
+        "7.7",
+        false
+      ]
+    ]
+  },
+  "Table2": {
+    "TableHeader": "Cumulative ART Success Rates for Intended Retrievals Among Patients Using Their Own Eggs <sup>a,b,c</sup>: All patients (with or without prior ART cycles)",
+    "RowHeaders": [
+      "New patients (with no prior ART cycles)",
+      "<35",
+      "35-37",
+      "38-40",
+      ">40"
+    ],
+    "DataRows": [
+      [
+        "Percentage of new patients having live-birth deliveries after 1 intended retrieval",
+        "48.8%",
+        "40.5%",
+        "25.9%",
+        "*/12"
+      ],
+      [
+        "Percentage of new patients having live-birth deliveries after 1 or 2 intended retrievals",
+        "53.5%",
+        "50.0%",
+        "29.6%",
+        "*/12"
+      ],
+      [
+        "Percentage of new patients having live-birth deliveries after all intended retrievals",
+        "55.8%",
+        "52.4%",
+        "51.9%",
+        "*/12"
+      ],
+      [
+        "Average number of intended retrievals per new patient",
+        "1.1",
+        "1.4",
+        "1.9",
+        "1.3"
+      ],
+      [
+        "Average number of transfers per intended retrieval",
+        "0.9",
+        "0.7",
+        "0.4",
+        "0.4"
+      ]
+    ]
+  },
+  "Table3": {
+    "TableHeader": "Noncumulative ART Success Rates for Transfers Among Patients Using Eggs or Embryos from a Donor or Donated Embryos <sup> a,b,c,d</sup>",
+    "RowHeaders": [
+      "Patients Using Eggs or Embryos From a Donor",
+      "Fresh Embryos Fresh Eggs",
+      "Fresh Embryos Frozen Eggs",
+      "Frozen Embryos",
+      "Donated Embryos"
+    ],
+    "DataRows": [
+      [
+        "Number of transfers",
+        "0",
+        "0",
+        "6",
+        "0"
+      ],
+      [
+        "Percentage of transfers resulting in live-birth deliveries",
+        "0.0%",
+        "0.0%",
+        "*/6",
+        "0.0%"
+      ],
+      [
+        "Percentage of transfers resulting in singleton live-birth deliveries",
+        "0.0%",
+        "0.0%",
+        "*/6",
+        "0.0%"
+      ]
+    ]
+  },
+  "Table4": {
+    "TableHeader": "Characteristics of ART Cycles <sup>a,b</sup>",
+    "RowHeaders": [
+      "Characteristics of ART Cycles",
+      "<35",
+      "35-37",
+      "38-40",
+      ">40",
+      "Total"
+    ],
+    "DataRows": [
+      [
+        "Total number of cycles",
+        "443",
+        "270",
+        "218",
+        "104",
+        "1035"
+      ],
+      [
+        "Percentage of intended egg retrieval cycles without any eggs retrieved <sup>e</sup>",
+        "2.6%",
+        "4.5%",
+        "9.3%",
+        "9.5%",
+        "5.1%"
+      ],
+      [
+        "Percentage of cycles discontinued after retrieval and before transfer or banking <sup>f</sup>",
+        "4.6%",
+        "6.2%",
+        "11.8%",
+        "15.6%",
+        "7.5%"
+      ],
+      [
+        "Percentage of cycles for fertility preservation",
+        "62.3%",
+        "60.7%",
+        "38.1%",
+        "34.6%",
+        "54.0%"
+      ],
+      [
+        "Percentage of transfers using a gestational carrier",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "*/19",
+        "0.5%"
+      ],
+      [
+        "Percentage of transfers using frozen embryos",
+        "97.5%",
+        "97.6%",
+        "96.4%",
+        "18/19",
+        "96.9%"
+      ],
+      [
+        "Percentage of transfers of at least 1 embryo with intracytoplasmic sperm injection",
+        "96.3%",
+        "87.8%",
+        "94.5%",
+        "11/19",
+        "90.3%"
+      ],
+      [
+        "Percentage of transfers of at least 1 embryo with preimplantation genetic testing",
+        "77.8%",
+        "87.8%",
+        "87.3%",
+        "15/19",
+        "82.7%"
+      ]
+    ]
+  },
+  "Table5": {
+    "TableHeader": "Clinic Services & Profile",
+    "RowHeaders": [
+      "Question",
+      "Data_Value",
+      "Type"
+    ],
+    "DataRows": [
+      [
+        "Embryo cryopreservation services",
+        "Yes",
+        "Service"
+      ],
+      [
+        "Egg cryopreservation services",
+        "Yes",
+        "Service"
+      ],
+      [
+        "Gestational carrier services",
+        "Yes",
+        "Service"
+      ],
+      [
+        "SART member",
+        "Yes",
+        "Profile"
+      ],
+      [
+        "Verified lab accreditation",
+        "Yes",
+        "Profile"
+      ],
+      [
+        "Donor egg services",
+        "Yes",
+        "Service"
+      ],
+      [
+        "Donated embryo services",
+        "No",
+        "Service"
+      ]
+    ]
+  },
+  "Table6": {
+    "TableHeader": "Reason for Using ART <sup>a,b,g</sup>",
+    "RowHeaders": [
+      "Question",
+      "Data_Value"
+    ],
+    "DataRows": [
+      [
+        "Male factor",
+        "9.6%"
+      ],
+      [
+        "Endometriosis",
+        "2.3%"
+      ],
+      [
+        "Tubal factor",
+        "2.8%"
+      ],
+      [
+        "Ovulatory dysfunction",
+        "6.8%"
+      ],
+      [
+        "Uterine factor",
+        "5.6%"
+      ],
+      [
+        "Preimplantation genetic testing",
+        "4.3%"
+      ],
+      [
+        "Gestational carrier",
+        "0.1%"
+      ],
+      [
+        "Diminished ovarian reserve",
+        "14.3%"
+      ],
+      [
+        "Egg or embryo banking",
+        "76.5%"
+      ],
+      [
+        "Recurrent pregnancy loss",
+        "1.4%"
+      ],
+      [
+        "Other factor, infertility",
+        "8.9%"
+      ],
+      [
+        "Other factor, non-infertility",
+        "0.9%"
+      ],
+      [
+        "Unexplained factor",
+        "7.5%"
+      ]
+    ]
+  },
+  "Footer": "ART = assisted reproductive technology; SART = Society for Assisted Reproductive Technology. <br/> <sup>a</sup> Numbers and percentages exclude 0 research cycles that were evaluating new procedures. <br/> <sup>b</sup>  Fractions are used when the denominator is less than 20. Reported sample size of 1 through 4 have been suppressed due to small sample size. <br>&nbsp;&nbsp;Data can be used to derive supressed cell values are also supressed. <br/> <sup>c</sup>  A live birth is defined as the delivery of one or more infants with at least one born alive. Multiple-birth deliveries (such as twins) with at least<br>&nbsp;&nbsp;one live-born infant are counted as one live birth. Success rates for cycles using a patient's own eggs are calculated by using all cycles started <br>&nbsp;&nbsp;in 2021 with the intent to retrieve a patient's eggs and all transfers of embryos created from these eggs started within 12 months of the start <br>&nbsp;&nbsp;of the retrieval cycle. Success rates for cycles using a donor's eggs or donated  embryos are calculated by using all transfers started in 2022. <br/> <sup>d</sup>  Patients of all ages are combined because previous data show that a patient's age does not substantially affect success when using a donor's <BR>&nbsp;&nbsp;eggs or donated embryos. <br/> <sup>e</sup>  Includes cycles in which no eggs were retrieved among all cycles in which egg retrieval was intended. <br/> <sup>f</sup>  Includes cycles in which no eggs or embryos were transferred or frozen among all cycles in which eggs were retrieved and all frozen cycles. <br/> <sup>g</sup>  Reasons may add to more than 100% because more than one diagnosis can be reported for each ART cycle."
+}

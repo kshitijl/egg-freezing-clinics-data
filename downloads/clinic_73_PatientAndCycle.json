@@ -1,0 +1,535 @@
+{
+  "Questions": [
+    {
+      "QuestionsId": "Q001",
+      "Question": "What were the ages of patients who used ART?",
+      "QuestionDescription": "The ages of patients who used ART are categorized into four groups: patients younger than age 35, aged 35-37, aged 38-40, and older than age 40. Because a woman's fertility declines with age, ART data are reported separately by age group. You may wish to find a clinic that commonly sees patients your age. The denominator for this measure is the total number of ART cycles. The numerator is the number of cycles that had patients in each age group."
+    },
+    {
+      "QuestionsId": "Q002",
+      "Question": "What were the reasons patients used ART?",
+      "QuestionDescription": "Displayed below are the percentages of patients' or couples' diagnoses or reasons for using ART. Patients' or couples' diagnoses or reasons for using ART may impact treatment approaches and success rates.  You may wish to find a clinic that commonly performs cycles for patients or couples with similar reasons and diagnoses as yours. The use of these categories may vary by clinic, and the total percentages may be greater than 100% because more than one diagnosis or reason can be reported for each cycle. The denominator for this measure is the total number of ART cycles. The numerator is the total number of cycles within each category."
+    },
+    {
+      "QuestionsId": "Q003",
+      "Question": "What was the percentage of cycles in which patients used their own eggs and embryos?",
+      "QuestionDescription": "Displayed below are the percentages of all ART cycles in which patients used their own eggs and embryos by patient age. Patient outcomes may differ based on whether they used their own eggs and  embryos, or donor eggs or embryos.  Since patient characteristics are presented per cycle rather than per patient, patients who had more than one ART cycle within the reporting year are represented more than once. The denominator of this measure includes all ART cycles. The numerator is the number of cycles in which patients used their own eggs and  embryos in each age group."
+    },
+    {
+      "QuestionsId": "Q004",
+      "Question": "What was the percentage of cycles in which patients used donor eggs or embryos?",
+      "QuestionDescription": "Displayed below are the percentages of all ART cycles in which patients used eggs or embryos from a donor by patient age. Patient outcomes may differ based on whether they used their own eggs and embryos or donor eggs or embryos. Since patient characteristics are presented per cycle rather than per patient, patients who had more than one ART cycle within the reporting year are represented more than once. The denominator for this measure includes all ART cycles. The numerator is the number of cycles in which patients used donor eggs or embryos in each age group."
+    },
+    {
+      "QuestionsId": "Q005",
+      "Question": "What percentage of egg retrieval cycles were discontinued without any eggs retrieved?",
+      "QuestionDescription": "Displayed below are the percentages of all intended egg retrieval cycles that were discontinued without any eggs retrieved by patient age. A cycle may be discontinued for many reasons, including poor response of a woman's body to medications, illness, or other medical or personal reasons. The denominator for this measure includes all cycles with the expectation to retrieve eggs. The numerator includes all cycles that were discontinued before egg retrieval. "
+    },
+    {
+      "QuestionsId": "Q101",
+      "Question": "What percentage of cycles were discontinued after retrieval and before transfer or banking?",
+      "QuestionDescription": "Displayed below are the percentages of all cycles that were discontinued after egg retrieval and before egg or embryo transfer or banking by patient age. A cycle may be discontinued after egg retrieval for many reasons, including inability of embryos to develop, illness, or other medical or personal reasons. The denominator for this measure includes all cycles in which eggs were retrieved and all cycles in which previously frozen eggs or embryos were thawed for transfer. The numerator includes all cycles that were discontinued before a transfer or banking occurred."
+    },
+    {
+      "QuestionsId": "Q102",
+      "Question": "What was the percentage of cycles discontinued before an egg or embryo was transferred or banked?",
+      "QuestionDescription": "Displayed below are the percentages of all cycles that were discontinued before egg or embryo transfer or banking by patient age. All ART cycles start with the intent to transfer eggs or embryos or freeze them for future use. A cycle may be discontinued for many reasons, including poor response of a woman's body to medications, inability of embryos to develop, illness, or other medical or personal reasons. The denominator for this measure includes all cycles started with the intent to transfer or freeze eggs or embryos (i.e., all cycles). The numerator includes all cycles that were discontinued at any time before a transfer or banking occurred. "
+    },
+    {
+      "QuestionsId": "Q006",
+      "Question": "What was the percentage of cycles used for fertility preservation?",
+      "QuestionDescription": "Displayed below are the percentages of all cycles that were used for fertility preservation by patient age. These cycles were started with the intent to freeze all retrieved eggs or embryos from the patient or a donor for use more than 12 months in the future. The denominator for this measure includes all ART cycles. The numerator is the number of cycles used for fertility preservation."
+    },
+    {
+      "QuestionsId": "Q007",
+      "Question": "What percentage of transfers used a gestational carrier?",
+      "QuestionDescription": "Displayed below are the percentages of embryo transfers in which the intended parent does not carry the pregnancy but instead uses a gestational carrier. A gestational carrier or surrogate is a woman who gestates, or carries, an embryo that was formed from the egg of another woman with the expectation of returning  the infant to its intended parents. Some states do not permit clinics to offer this service. The denominator includes all cycles in which at least one embryo was transferred. The numerator includes the total number of transfers in which the pregnancy carrier was a gestational carrier."
+    },
+    {
+      "QuestionsId": "Q008",
+      "Question": "What percentage of transfers used frozen embryos?",
+      "QuestionDescription": "Displayed below are the percentages of embryo transfers in which at least one frozen embryo created from either fresh or frozen eggs was transferred.  Embryos can be frozen and transferred at a later time after thawing. The denominator includes all cycles in which at least one embryo was transferred. The numerator includes all transfers with at least one frozen embryo.  "
+    },
+    {
+      "QuestionsId": "Q009",
+      "Question": "What percentage of transfers used intracytoplasmic sperm injection (ICSI)?",
+      "QuestionDescription": "Displayed below are the percentages of embryo transfers in which at least one embryo was fertilized using intracytoplasmic sperm injection (ICSI). ICSI is a procedure in which a single sperm is injected directly into an egg for fertilization, typically to overcome male factor infertility. It is an alternative to conventional in vitro fertilization (IVF), in which sperm compete to fertilize an egg. Transferred embryos may be fresh or previously frozen. The denominator includes all cycles in which at least one embryo was transferred. The numerator includes all transfers in which ICSI was performed."
+    },
+    {
+      "QuestionsId": "Q010",
+      "Question": "What percentage of transfers used preimplantation genetic testing (PGT)?",
+      "QuestionDescription": "Displayed below are the percentages of embryo transfers in which at least one embryo underwent preimplantation genetic testing (PGT). PGT is used to detect chromosomal or genetic abnormalities and prevent the transmission of inherited diseases. The denominator includes all cycles in which at least one embryo was transferred. The numerator includes all transfers in which PGT was performed."
+    },
+    {
+      "QuestionsId": "Q110",
+      "Question": "What percentage of embryo transfers used a single embryo?",
+      "QuestionDescription": "Displayed below are the percentages of embryo transfers that used a single embryo. The best outcome of ART is the birth of a healthy infant. For most patients, this outcome can be achieved when a single embryo is selected for transfer, regardless of the number of embryos available. The denominator includes all cycles in which at least one embryo was transferred. The numerator includes the number of transfers in which only one embryo was transferred."
+    },
+    {
+      "QuestionsId": "Q210",
+      "Question": "What was the average number of embryos transferred?",
+      "QuestionDescription": "Displayed below is the average number of embryos transferred during one embryo transfer procedure. The best outcome of ART is the birth of a healthy infant, and for most patients, the best outcome can be achieved when a single embryo is selected for transfer. The denominator includes all cycles in which at least one embryo was transferred. The numerator is the number of embryos transferred."
+    }
+  ],
+  "Reasons": [
+    {
+      "ReasonsId": "CAT3",
+      "Reason": "Tubal factor",
+      "ReasonDescription": "Tubal factor infertility is a diagnostic category used when the woman\u2019s fallopian tubes are blocked or damaged, making it difficult for the egg to be fertilized or for an embryo to travel to the uterus."
+    },
+    {
+      "ReasonsId": "CAT4",
+      "Reason": "Uterine factor",
+      "ReasonDescription": "Uterine factor infertility is a structural or functional disorder of the uterus that results in reduced fertility."
+    },
+    {
+      "ReasonsId": "CAT5",
+      "Reason": "Ovulatory dysfunction",
+      "ReasonDescription": "Ovulatory dysfunction is a diagnostic category used when a woman\u2019s ovaries are not producing eggs normally. It includes polycystic ovary syndrome and multiple ovarian cysts."
+    },
+    {
+      "ReasonsId": "CAT6",
+      "Reason": "Diminished ovarian reserve",
+      "ReasonDescription": "Diminished ovarian reserve means that the ability of the ovary to produce eggs is reduced. Reasons include congenital, medical, surgical causes, or advanced age."
+    },
+    {
+      "ReasonsId": "CAT7",
+      "Reason": "Endometriosis",
+      "ReasonDescription": "Endometriosis is a medical condition that involves the presence of tissue similar to the uterine lining in abnormal locations. This condition can affect both fertilization of the egg and embryo implantation."
+    },
+    {
+      "ReasonsId": "CAT8",
+      "Reason": "Male factor",
+      "ReasonDescription": "Male factor infertility refers to any cause of infertility due to low sperm count or problems with sperm function that makes it difficult for a sperm to fertilize an egg under normal conditions."
+    },
+    {
+      "ReasonsId": "CAT9",
+      "Reason": "Egg or embryo banking",
+      "ReasonDescription": "Egg or embryo banking cycle. An ART cycle started with the intention of freezing (cryopreserving) all resulting eggs or embryos for potential future use."
+    },
+    {
+      "ReasonsId": "CAT10",
+      "Reason": "Recurrent pregnancy loss",
+      "ReasonDescription": "Recurrent pregnancy loss is a diagnostic category in which a patient has experienced the spontaneous loss of two or more pregnancies."
+    },
+    {
+      "ReasonsId": "CAT11",
+      "Reason": "Preimplantation genetic testing",
+      "ReasonDescription": "Preimplantation genetic testing (PGT). Diagnostic or screening techniques performed on embryos prior to transfer for detecting specific genetic conditions to reduce the risk of passing inherited diseases to children or screening for an abnormal number of chromosomes, which is of special value for patients with advanced age, recurrent miscarriages, or prior failed in vitro fertilization."
+    },
+    {
+      "ReasonsId": "CAT12",
+      "Reason": "Gestational carrier",
+      "ReasonDescription": "Gestational carrier (also called a gestational surrogate). A woman who gestates, or carries, an embryo that was formed from the egg of another woman with the expectation of returning the infant to its intended parents."
+    },
+    {
+      "ReasonsId": "CAT13",
+      "Reason": "Other factor",
+      "ReasonDescription": "Other known reasons may be either related to infertility (such as immunological problems, chromosomal abnormalities, cancer chemotherapy, serious illnesses), or not related to infertility, but not unexplained."
+    },
+    {
+      "ReasonsId": "CAT14",
+      "Reason": "Unexplained factor",
+      "ReasonDescription": "Unexplained infertility is a diagnostic category used when no cause of infertility is found in either the woman or the man."
+    }
+  ],
+  "TopicDescription": [
+    {
+      "TopicId": "TOP02",
+      "Topic": "Patient & Cycle Characteristics",
+      "TopicDescription": "Patient and cycle characteristics summarize the types of ART services performed and the kinds of patients who received ART procedures. Please note that patient characteristics are presented per cycle rather than per patient. As a result, patients who had more than one ART cycle within the reporting year are represented more than once. You can select the Show National Data box to view national data for the selected success rate of interest. You can select the Show National Data box to view national data for the selected success rate of interest."
+    }
+  ],
+  "Data": [
+    {
+      "QuestionId": "Q001",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "35.9%",
+          "22.2%",
+          "21.3%",
+          "20.7%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 856 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q002",
+      "TableHeader": "Reason",
+      "RowHeaders": [
+        "",
+        "Clinic"
+      ],
+      "DataRows": [
+        [
+          "Male factor",
+          "13.7%"
+        ],
+        [
+          "Endometriosis",
+          "13.7%"
+        ],
+        [
+          "Tubal factor",
+          "3.2%"
+        ],
+        [
+          "Ovulatory dysfunction",
+          "6.5%"
+        ],
+        [
+          "Uterine factor",
+          "2.8%"
+        ],
+        [
+          "Preimplantation genetic testing",
+          "1.9%"
+        ],
+        [
+          "Gestational carrier",
+          "0.2%"
+        ],
+        [
+          "Diminished ovarian reserve",
+          "39.1%"
+        ],
+        [
+          "Egg or embryo banking",
+          "42.3%"
+        ],
+        [
+          "Recurrent pregnancy loss",
+          "0.7%"
+        ],
+        [
+          "Other factor, infertility",
+          "3.5%"
+        ],
+        [
+          "Other factor, non-infertility",
+          "0.1%"
+        ],
+        [
+          "Unexplained factor",
+          "24.6%"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 856 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q003",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "56.4%",
+          "57.9%",
+          "52.7%",
+          "34.5%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 856 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q004",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "1.0%",
+          "1.6%",
+          "4.4%",
+          "22.6%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 856 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q005",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "0.7%",
+          "4.8%",
+          "6.7%",
+          "8.0%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 413 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q101",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "6.9%",
+          "12.4%",
+          "13.1%",
+          "14.8%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 837 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q102",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "7.2%",
+          "14.2%",
+          "15.9%",
+          "18.6%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 856 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q006",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "5.9%",
+          "3.7%",
+          "3.3%",
+          "1.7%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 856 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q007",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "0.0%",
+          "0.0%",
+          "2.3%",
+          "2.5%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 422 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q008",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "96.9%",
+          "96.8%",
+          "91.9%",
+          "72.8%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 422 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q009",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "96.9%",
+          "96.8%",
+          "90.7%",
+          "82.7%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 422 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q010",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "93.8%",
+          "94.7%",
+          "88.4%",
+          "66.7%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 422 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q110",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "94.4%",
+          "95.8%",
+          "91.9%",
+          "82.7%",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 422 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    },
+    {
+      "QuestionId": "Q210",
+      "TableHeader": "Cycle Count",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        [
+          "Clinic",
+          "1.1",
+          "1.0",
+          "1.1",
+          "1.2",
+          "True"
+        ]
+      ],
+      "CycleCountMessage": "Clinic information based on 422 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": ""
+    }
+  ]
+}

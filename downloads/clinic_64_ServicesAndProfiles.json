@@ -1,0 +1,138 @@
+{
+  "ClinicInfo": {
+    "FacilityName": "NYU Langone Reproductive Specialists of New York",
+    "Address": "200 Old Country Rd, Suite 350",
+    "City": "Mineola",
+    "StateDesc": "New York",
+    "ZipCode": "11501",
+    "Phone": "(516) 739-2100",
+    "MedicalDirector": "Maria Saketos, MD",
+    "ReportingYear": "2022",
+    "ClinicStatus": "Open",
+    "GeoLocation_Lat": "40.7395",
+    "GeoLocation_Long": "-73.6389"
+  },
+  "Services": [
+    [
+      "Donor egg services",
+      "Yes",
+      "Service"
+    ],
+    [
+      "Donated embryo services",
+      "No",
+      "Service"
+    ],
+    [
+      "Embryo cryopreservation services",
+      "Yes",
+      "Service"
+    ],
+    [
+      "Egg cryopreservation services",
+      "Yes",
+      "Service"
+    ],
+    [
+      "Gestational carrier services",
+      "Yes",
+      "Service"
+    ],
+    [
+      "SART member",
+      "Yes",
+      "Profile"
+    ],
+    [
+      "Verified lab accreditation",
+      "Yes",
+      "Profile"
+    ]
+  ],
+  "ServicesMetadata": [
+    [
+      "Donor egg services",
+      "A clinic may have a donor egg program for ART in which a donor egg is retrieved from one woman (the donor) and fertilized with either partner or donor sperm, and then the resulting embryo is transferred to the uterus of another woman (the recipient). A \"Yes\" indicates the clinic provided the service, and a \"No\" means they did not.",
+      "2022"
+    ],
+    [
+      "Donated embryo services",
+      "A clinic may have a donated embryo program using embryos that were donated by other patients who previously underwent ART treatment and had extra embryos available. A \"Yes\" indicates the clinic provided the service, and a \"No\" means they did not.",
+      "2022"
+    ],
+    [
+      "Embryo cryopreservation services",
+      "A clinic may have a program for embryo cryopreservation, or freezing embryos for potential future use. A \"Yes\" indicates the clinic provided the service, and a \"No\" means they did not.",
+      "2022"
+    ],
+    [
+      "Egg cryopreservation services",
+      "A clinic may have a program for egg cryopreservation, or freezing eggs for potential future use. A \"Yes\" indicates the clinic provided the service, and a \"No\" means they did not.",
+      "2022"
+    ],
+    [
+      "Gestational carrier services",
+      "A clinic may have a gestational carrier program. A gestational carrier or surrogate is a woman who gestates, or carries, an embryo that was formed from the egg of another woman with the expectation of returning the infant to its intended parents. Some states do not permit clinics to offer this service. A \"Yes\" indicates the clinic provided the service, and a \"No\" means they did not.",
+      "2022"
+    ],
+    [
+      "SART member",
+      "A clinic may be a member of the Society for Assisted Reproductive Technology (SART) - a professional society composed of clinics and programs that provide ART and an affiliate of the American Society for Reproductive Medicine (ASRM). A \"Yes\" indicates the clinic was a member of SART at the time of reporting, and a \"No\" means it was not.",
+      "2022"
+    ],
+    [
+      "Verified lab accreditation",
+      "A clinic laboratory may be accredited by at least one of the specified accrediting organizations: the College of American Pathologists, or The Joint Commission. A \"Yes\" indicates the clinic had an embryo laboratory accreditation at the time of reporting by at least one of the specified accrediting organizations. A \"No\" indicates that the embryo laboratory was not accredited by any of these organizations or did not provide proof of accreditation to CDC. A \"Pending\" means that the clinic submitted an application for accreditation to one or both of the organizations and provided proof of such application to CDC. Please note that effective in 2021, the New York State Tissue Bank is no longer providing accreditation for embryo laboratories.",
+      "2022"
+    ]
+  ],
+  "Profile": [
+    [
+      "Total cycles",
+      "1470"
+    ],
+    [
+      "Fertility preservation cycles",
+      "149"
+    ],
+    [
+      "Pregnancies",
+      "315"
+    ],
+    [
+      "Deliveries",
+      "252"
+    ],
+    [
+      "Total infants born",
+      "256"
+    ]
+  ],
+  "ProfilesMetadata": [
+    [
+      "Total cycles",
+      "The total number of all ART cycles started, which usually means that a woman began taking medication to stimulate egg production or began monitoring with the intent of having embryos transferred. The total number of ART cycles is calculated as the sum of (1) the number of cycles started with the intent to freeze all resulting eggs or embryos (for example, short term banking or fertility preservation); (2) the number of cycles started with the intent to transfer fresh or frozen eggs retrieved from either the patient or donor; and (3) the number of cycles started with the intent to transfer fresh or frozen embryos created from fresh or frozen eggs retrieved from either the patient or donor.     ",
+      "2022"
+    ],
+    [
+      "Fertility preservation cycles",
+      "The total number of ART cycles started with the intent of freezing and banking all eggs or embryos for more than 12 months for future use.",
+      "2022"
+    ],
+    [
+      "Pregnancies",
+      "The total number of pregnancies that resulted from ART cycles.  Because some pregnancies end in a miscarriage or stillbirth, the number of pregnancies may be higher than the number of deliveries or infants born.",
+      "2022"
+    ],
+    [
+      "Deliveries",
+      "The total number of live-birth deliveries of infants conceived with the help of ART. One delivery could result in one or more infants born.",
+      "2022"
+    ],
+    [
+      "Total infants born",
+      "The total number of live-born infants who were conceived using ART, including singleton infants and infants born in a multiple-birth delivery (such as twins or triplets).",
+      "2022"
+    ]
+  ]
+}

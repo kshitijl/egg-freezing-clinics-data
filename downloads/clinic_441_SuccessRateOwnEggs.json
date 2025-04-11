@@ -1,0 +1,4596 @@
+{
+  "Filters": [
+    {
+      "FilterId": "F006",
+      "FilterName": "Male factor",
+      "FilterDescription": "Male factor infertility refers to any cause of infertility due to low sperm count or problems with sperm function that makes it difficult for a sperm to fertilize an egg under normal conditions."
+    },
+    {
+      "FilterId": "F005",
+      "FilterName": "Endometriosis",
+      "FilterDescription": "Endometriosis is a medical condition that involves the presence of tissue similar to the uterine lining in abnormal locations. This condition can affect both fertilization of the egg and embryo implantation."
+    },
+    {
+      "FilterId": "F001",
+      "FilterName": "Tubal factor",
+      "FilterDescription": "Tubal factor infertility is a diagnostic category used when the woman\u2019s fallopian tubes are blocked or damaged, making it difficult for the egg to be fertilized or for an embryo to travel to the uterus."
+    },
+    {
+      "FilterId": "F003",
+      "FilterName": "Ovulatory dysfunction",
+      "FilterDescription": "Ovulatory dysfunction is a diagnostic category used when a woman\u2019s ovaries are not producing eggs normally. It includes polycystic ovary syndrome and multiple ovarian cysts."
+    },
+    {
+      "FilterId": "F002",
+      "FilterName": "Uterine factor",
+      "FilterDescription": "Uterine factor infertility is a structural or functional disorder of the uterus that results in reduced fertility."
+    },
+    {
+      "FilterId": "F004",
+      "FilterName": "Diminished ovarian reserve",
+      "FilterDescription": "Diminished ovarian reserve means that the ability of the ovary to produce eggs is reduced. Reasons include congenital, medical, surgical causes, or advanced age."
+    },
+    {
+      "FilterId": "F007",
+      "FilterName": "Recurrent pregnancy loss",
+      "FilterDescription": "Recurrent pregnancy loss is a diagnostic category in which a patient has experienced the spontaneous loss of two or more pregnancies."
+    },
+    {
+      "FilterId": "F008",
+      "FilterName": "Unexplained factor",
+      "FilterDescription": "Unexplained infertility is a diagnostic category used when no cause of infertility is found in either the woman or the man."
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionsId": "Q011",
+      "Question": "What percentage of intended egg retrievals resulted in live-birth deliveries?",
+      "QuestionDescription": "Displayed below are the cumulative percentages of cycles started in the previous year with the intent to retrieve eggs that resulted in a live-birth delivery. Not all cycles started with the intent to retrieve eggs result in actual egg retrieval; some cycles may be canceled before the egg retrieval is performed for many reasons. Therefore, the number of intended retrievals may be higher than the number of actual retrievals. A live-birth delivery is the delivery of one or more infants with at least one born alive. The denominator for this measure includes the number of intended retrievals. The numerator includes the number of live-birth deliveries that have resulted from the intended retrievals and associated transfers within 12 months of cycle start. For example, if a clinic started 60 intended egg retrievals, and these resulted in 30 live-birth deliveries, the average live-birth delivery rate for intended retrievals would be 30 (live-birth deliveries) \u00f7 60 (intended retrievals) = 0.5, or 50.0% of intended retrievals resulting in a live-birth delivery. "
+    },
+    {
+      "QuestionsId": "Q025",
+      "Question": "What percentage of new patients had live-birth deliveries after 1 intended egg retrieval?",
+      "QuestionDescription": "Displayed below are the cumulative percentages of patients with no prior ART cycles that had live-birth deliveries after their first intended retrieval in the previous year. The denominator for this measure includes the number of new patients. The numerator includes the live-birth deliveries that resulted from the first intended retrieval and associated transfers within 12 months of cycle start. For example, if there were 40 new patients and their first intended retrieval resulted in 22 live-birth deliveries, the average live-birth delivery rate for the first intended retrieval would be 22 (live-birth deliveries) \u00f7 40 (new patients) = 0.55, or 55.0% of new patients having a live-birth delivery after the first retrieval."
+    },
+    {
+      "QuestionsId": "Q012",
+      "Question": "What percentage of intended egg retrievals resulted in singleton live-birth deliveries?",
+      "QuestionDescription": "Displayed below are the cumulative percentages of all intended retrievals started in the previous year that resulted in a singleton live-birth delivery. A singleton live-birth delivery is the delivery of a single  infant born alive. The denominator for this measure includes the number of intended retrievals. The numerator includes the number of singleton live-birth deliveries that resulted from the intended retrievals and associated transfers within 12 months of cycle start. For example, if a clinic started 60 intended retrievals, and these resulted in 24 singleton live-birth deliveries, the average live-birth delivery rate for intended retrievals would be 24 (singleton live-birth deliveries) \u00f7 60 (intended retrievals) = 0.4, or 40.0% of intended retrievals resulting in a singleton live-birth delivery."
+    },
+    {
+      "QuestionsId": "Q026",
+      "Question": "What percentage of new patients had live-birth deliveries after 1 or 2 intended egg retrievals?",
+      "QuestionDescription": "Displayed below are cumulative percentages of patients with no prior ART cycles with a live-birth delivery after their first or second (if the first retrieval did not result in a live-birth delivery) intended retrieval in the previous year. The denominator for this measure includes the number of new patients. The numerator includes the live-birth deliveries that resulted from the associated transfer(s) of embryos after the first or second egg retrieval.\r\nFor example, if there were 40 new patients, and their first intended retrievals resulted in 22 live-birth deliveries, some of the remaining patients who did not have a delivery would then have second egg retrievals in 2022, which resulted in 3 live-birth deliveries, making the total number of live-birth deliveries after one or two intended retrievals 25. Thus, the average live-birth delivery rate after the first or second intended retrievals would be 25 (live-birth deliveries) \u00f7 40 (new patients) = 0.625, or 62.5% of new patients had a live-birth delivery after the first or second retrieval."
+    },
+    {
+      "QuestionsId": "Q013",
+      "Question": "What percentage of intended egg retrievals resulted in single, term, normal weight live-birth deliveries?",
+      "QuestionDescription": "Displayed below are the cumulative percentages of all intended retrievals started in the previous year resulting in a single, term, normal weight live-birth delivery. Term birth is defined as at least 37 weeks of gestation, and normal weight is defined as at least 2,500 grams. The denominator for this measure includes the number of intended retrievals. The numerator includes single, term, normal weight live-birth deliveries that resulted from the intended retrievals and associated transfers within 12 months of cycle start. For example, if a clinic started 60 intended retrievals, and these resulted in 20 single, term, normal weight live-birth deliveries, the average live-birth delivery rate for intended retrievals would be 20 (single, term, normal weight live-birth deliveries) \u00f7 60 (intended retrievals) = 0.3, or 30.0% of intended retrievals resulting in a single, term, normal weight live-birth delivery."
+    },
+    {
+      "QuestionsId": "Q027",
+      "Question": "What percentage of new patients had live-birth deliveries after all intended egg retrievals?",
+      "QuestionDescription": "Displayed below are the cumulative percentages of patients with no prior ART cycles who had a live-birth delivery after all intended retrievals in the previous year. The denominator for this measure includes the number of new patients. The numerator includes the live-birth deliveries that resulted from the associated transfer(s) of embryos after all egg retrievals were performed in 2022. For example, if there were 40 new patients that had 26 live-birth deliveries after all intended retrievals in 2022, the average live-birth delivery rate after all intended retrievals would be 26 (live-birth deliveries) \u00f7 40 (new patients) = 0.65, or 65.0% of new patients had a live-birth delivery after all intended retrievals.  "
+    },
+    {
+      "QuestionsId": "Q014",
+      "Question": "What percentage of intended egg retrievals resulted in multiple live-birth deliveries?",
+      "QuestionDescription": "Displayed below are the cumulative percentages of all intended retrievals started in the previous year resulting in a multiple live-birth delivery (delivery of more than one infant with at least one born alive). Multiple birth delivery increases risks to infant and their mothers, including premature birth, low birth weight, and pregnancy complications.  The denominator for this measure includes the number of intended retrievals. The numerator includes multiple live-birth deliveries that resulted from the intended retrievals and associated transfers within 12 months of cycle start. For example, if a clinic started 60 intended retrievals, and these resulted in 6 multiple live-birth deliveries, the average multiple live-birth delivery rate for intended retrievals would be 6 (multiple live-birth deliveries) \u00f7 60 (intended retrievals) = 0.10, or 10% of intended retrievals resulting in a multiple live-birth delivery."
+    },
+    {
+      "QuestionsId": "Q028",
+      "Question": "What was the average number of intended egg retrievals per new patient?",
+      "QuestionDescription": "Displayed below are the average number of intended egg retrievals started in the previous year among patients with no prior ART cycles. The denominator for this measure is the number of new patients. The numerator is the number of intended egg retrievals among new patients. For example, if a clinic started 45 intended egg retrievals among 40 new patients, the average number of intended egg retrievals would be 45 (new patient intended retrievals) \u00f7 40 (new patients) = 1.1 intended egg retrievals among new patients."
+    },
+    {
+      "QuestionsId": "Q015",
+      "Question": "What percentage of actual egg retrievals resulted in live-birth deliveries?",
+      "QuestionDescription": "Displayed below are the cumulative percentages of actual egg retrievals started in the previous year that resulted in live-birth deliveries after all associated embryo transfers within 12 months of cycle start. Actual egg retrieval is an ART cycle in which at least one egg was retrieved from the patient. A live-birth delivery is the delivery of one or more infants with at least one born alive. The cumulative (or combined) chance of a live-birth delivery typically increases with each additional embryo transfer because it provides another opportunity to conceive a child. The denominator for this measure includes the number of actual retrievals. The numerator includes the live-birth deliveries that resulted from the retrievals and associated transfers within 12 months of cycle start in each age group. For example, if a clinic started 60 intended retrievals, and 55 of these intended retrieval cycles progressed to the egg retrieval stage, which resulted in 30 live-birth deliveries, the average live-birth delivery rate per actual egg retrieval would be 30 (live-birth deliveries) \u00f7 55 (actual retrievals) = 0.545, or 54.5% of actual retrievals resulting in a live-birth delivery."
+    },
+    {
+      "QuestionsId": "Q029",
+      "Question": "What was the average number of transfers per intended egg retrieval?",
+      "QuestionDescription": "Displayed below are the average number of transfers of embryos that occurred per intended egg retrieval in the previous year among patients with no prior ART cycles. An intended egg retrieval is an ART cycle that starts with the intent to retrieve eggs. If eggs are retrieved, it may take one or more transfers to achieve a live-birth delivery. The denominator for this measure is the total number of intended egg retrievals among new patients. The numerator is the total number of transfers within 12 months after intended egg retrievals among new patients. For example, if there were 55 transfers after 45 intended egg retrievals among new patients in 2022, the average number of transfers per intended egg retrieval would be 55 (transfers) \u00f7 45 (intended egg retrievals) = 1.2 transfers per intended egg  retrieval among new patients."
+    },
+    {
+      "QuestionsId": "Q016",
+      "Question": "What percentage of actual egg retrievals resulted in singleton live-birth deliveries?",
+      "QuestionDescription": "Displayed below are cumulative percentages of egg retrievals started in the previous year in which one or more eggs were retrieved that resulted in the delivery of a single live infant after all associated embryo transfers within 12 months of cycle start. The denominator for this measure includes the number of actual retrievals. The numerator includes singleton live-birth deliveries that resulted from the retrievals and associated transfers within 12 months of cycle start.\r\nFor example, if a clinic started 60 intended egg retrievals, and 55 of these intended retrieval cycles progressed to the egg retrieval stage, which resulted in 24 singleton live-birth deliveries, the average singleton live-birth delivery rate per actual egg retrieval would be 24 (singleton live-birth deliveries) \u00f7 55 (actual retrievals) = 0.436, or 43.6% of actual retrievals resulting in a singleton live-birth delivery."
+    },
+    {
+      "QuestionsId": "Q017",
+      "Question": "What percentage of actual egg retrievals resulted in single, term, normal weight live-birth deliveries?",
+      "QuestionDescription": "Displayed below are cumulative percentages of actual egg retrievals started in the previous year that resulted in the delivery of a term, single, live infant with normal birthweight after all associated embryo transfers within 12 months of cycle start. Term births are defined as at least 37 weeks of pregnancy; normal birthweight is defined as the infant weighing at least 2,500 grams. The denominator for this measure includes the number of actual retrievals. The numerator includes single, term, normal weight live-birth deliveries that resulted from the retrievals and associated transfers within 12 months of cycle start. For example, if a clinic started 60 intended egg retrievals, and 55 of these intended retrieval cycles progressed to the egg retrieval stage, which resulted in 20 single, term, normal weight live-birth deliveries, the average single, term, normal weight live-birth delivery rate per actual egg retrieval would be 20 (single, term, normal weight live-birth deliveries) \u00f7 55 (actual retrievals) = 0.363, or 36.3% of actual retrievals resulting in a single, term, normal weight live-birth delivery."
+    },
+    {
+      "QuestionsId": "Q018",
+      "Question": "What percentage of actual egg retrievals resulted in multiple live-birth deliveries?",
+      "QuestionDescription": "Displayed below are cumulative percentages of actual egg retrievals started in the previous year that resulted in multiple birth deliveries after all associated embryo transfers within 12 months of cycle start. Multiple birth delivery increases risks to infants and their mothers, including premature birth, low birth weight, and pregnancy complications. The denominator for this measure includes the number of actual retrievals. The numerator includes multiple live-birth deliveries that resulted from the retrievals and associated transfers within 12 months of cycle start. For example, if a clinic started 60 intended egg retrievals, and 55 of these intended retrieval cycles progressed to the egg retrieval stage, which resulted in 6 multiple live-birth deliveries, the average multiple live-birth delivery rate per egg retrieval would be 6 (multiple live-birth deliveries) \u00f7 55 (actual retrievals) = 0.109, or 10.9% of actual retrievals resulting in a multiple live-birth delivery. "
+    },
+    {
+      "QuestionsId": "Q019",
+      "Question": "What percentage of transfers resulted in live-birth deliveries?",
+      "QuestionDescription": "Displayed below are percentages of transfers with at least one egg or embryo that resulted in a live-birth delivery. After eggs are retrieved, the number of egg or embryo transfers varies by patient age and other factors. Some patients may not have any eggs or embryos to transfer and may require another stimulation and egg retrieval. A live-birth delivery is the delivery of one or more infants with at least one born alive. The embryos transferred can be either fresh or previously frozen and thawed. The denominator for this measure includes the number of embryo transfers. The numerator includes the live-birth deliveries that resulted from the transfer of eggs or embryos.  For example, if 60 intended retrievals were associated with 58 transfers within 12 months of cycle start and resulted in 30 live-birth deliveries, the average success rate per transfer would be 30 (live-birth deliveries) \u00f7 58 (transfers) = 0.517, or 51.7% of transfers resulting in a live-birth delivery."
+    },
+    {
+      "QuestionsId": "Q020",
+      "Question": "What percentage of transfers resulted in singleton live-birth deliveries?",
+      "QuestionDescription": "Displayed below are percentages of embryo transfers that resulted in the delivery of a single live infant. The denominator for this measure includes the number of embryo transfers. The numerator includes singleton live-birth deliveries that resulted from the transfer of embryos. For example, if 60 intended retrievals were associated with 58 transfers within 12 months, which resulted in 24 singleton live-birth deliveries, the average success rate per transfer would be 24 (singleton live-birth deliveries) \u00f7 58 (transfers) = 0.414, or 41.4% of transfers resulting in a singleton live-birth delivery.   "
+    },
+    {
+      "QuestionsId": "Q021",
+      "Question": "What percentage of transfers resulted in single, term, normal weight live-birth deliveries?",
+      "QuestionDescription": "Displayed below are percentages of embryo transfers that resulted in the delivery of a term, single, live infant with normal birthweight. Term births are defined as at least 37 weeks of pregnancy; normal birthweight is defined as the infant weighing at least 2,500 grams. The denominator for this measure includes the number of embryo transfers. The numerator includes single, term, normal weight live-birth deliveries that resulted from the transfer of embryos. For example, if 60 intended retrievals were associated with 58 transfers within 12 months, which resulted in 20 single, term, normal weight live-birth deliveries, the average success rate per transfer would be 20 (single, term, normal weight live-birth deliveries) \u00f7 58 (transfers) = 0.344, or 34.4% of transfers resulting in a single, term, normal weight live-birth delivery."
+    },
+    {
+      "QuestionsId": "Q022",
+      "Question": "What percentage of transfers resulted in multiple live-birth deliveries?",
+      "QuestionDescription": "Displayed below are percentages of embryo transfers that resulted in multiple birth delivery. Multiple birth delivery increases risks to infants and their mothers, including premature birth, low birth weight, and pregnancy complications. The denominator for this measure includes the number of embryo transfers. The numerator includes multiple live-birth deliveries that resulted from the transfer of embryos. For example, if 60 intended retrievals were associated with 58 transfers within 12 months, which resulted in 6 multiple live-birth deliveries, the average multiple live-birth delivery rate per transfer would be 6 (multiple live-birth deliveries) \u00f7 58 (transfers) = 0.103, or 10.3% of transfers resulting in a multiple live-birth delivery."
+    },
+    {
+      "QuestionsId": "Q023",
+      "Question": "What was the average number of transfers per intended egg retrieval?",
+      "QuestionDescription": "Displayed below are the average number of embryo transfers that occurred per intended egg retrieval. An intended egg retrieval is an ART cycle that starts with the intent to retrieve eggs. If eggs are retrieved, it may take one or more transfers to achieve a live-birth delivery. The denominator for this measure is the total number of intended retrievals started in the previous year. The numerator is the total number of transfers within 12 months after intended retrievals. For example, if there were 45 transfers after 60 intended retrievals, the average number of transfers per intended retrieval would be 45 (transfers) \u00f7 60 (intended retrievals) = 0.75 transfers per intended egg retrieval."
+    },
+    {
+      "QuestionsId": "Q024",
+      "Question": "What was the average number of intended egg retrievals per live-birth delivery?",
+      "QuestionDescription": "Displayed below are the average number of intended egg retrievals that occurred per live-birth delivery. A live-birth delivery is the delivery of one or more infants with at least one born alive. The denominator for this measure includes the number of live-birth deliveries resulting from the transfer of embryos following cycles started in the previous year. The numerator is the number of intended retrievals. For example, if 30 live-birth deliveries and 60 intended retrievals were reported, the average number of intended retrievals per live-birth delivery would be 60 (intended retrievals) \u00f7 30 (live-birth deliveries) = 2.0 intended retrievals per live-birth delivery."
+    }
+  ],
+  "TopicDescription": [
+    {
+      "TopicId": "TOP03",
+      "Topic": "Success Rates: Patients Using Own Eggs",
+      "TopicDescription": "Success rates for patients using their own eggs are shown per intended retrieval, per actual retrieval, and per transfer. These success rates are reported as cumulative success rates, which take into account transfers that occur within 1 year after an egg retrieval. Since ART success depends on whether patients are using ART for the first time or had prior ART cycles, the drop-down menu allows users to examine success rates for all \"Patients using their own eggs\" or for \"Patients with no prior ART using their own eggs\". You can select the Show National Data box to view national data for the selected success rate of interest. You can select the Show National Data box to view national data for the selected success rate of interest."
+    }
+  ],
+  "Data": [
+    {
+      "QuestionId": "Q011",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0/*",
+        "*/6",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q011",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/9",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q011",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "*/15",
+        "4.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 71 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q011",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "14.3%",
+        "0/14",
+        "8.9%",
+        "0.5%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 309 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q011",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q011",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "*/11",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 48 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q011",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "*/*",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 15 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q011",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q011",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "20.8%",
+        "*/15",
+        "8.1%",
+        "1.2%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 356 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q012",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0/*",
+        "*/6",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q012",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/9",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q012",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "*/15",
+        "4.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 71 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q012",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "14.3%",
+        "0/14",
+        "8.9%",
+        "0.5%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 309 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q012",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q012",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "*/11",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 48 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q012",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "*/*",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 15 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q012",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q012",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "16.7%",
+        "*/15",
+        "8.1%",
+        "1.2%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 356 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q013",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0/*",
+        "*/6",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q013",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/9",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q013",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0/*",
+        "*/15",
+        "2.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 71 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q013",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "9.5%",
+        "0/14",
+        "5.4%",
+        "0.5%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 309 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q013",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q013",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "*/11",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 48 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q013",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "*/*",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 15 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q013",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q013",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "12.5%",
+        "*/15",
+        "4.8%",
+        "0.8%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 356 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q014",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0.0%",
+        "0/*",
+        "0/6",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q014",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/9",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q014",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0/*",
+        "0/15",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 71 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q014",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0/14",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 309 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q014",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q014",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "0/11",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 48 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q014",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0/*",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 15 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q014",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q014",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "4.2%",
+        "0/15",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 356 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q015",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0/*",
+        "*/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 7 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q015",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/7",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 7 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q015",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "*/14",
+        "4.7%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 61 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q015",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/17",
+        "0/7",
+        "10.4%",
+        "0.6%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 229 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q015",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/11",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q015",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "*/11",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 42 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q015",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "*/*",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 15 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q015",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q015",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "25.0%",
+        "*/8",
+        "9.3%",
+        "1.6%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 274 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q016",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0/*",
+        "*/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 7 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q016",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/7",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 7 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q016",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "*/14",
+        "4.7%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 61 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q016",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/17",
+        "0/7",
+        "10.4%",
+        "0.6%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 229 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q016",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/11",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q016",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "*/11",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 42 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q016",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "*/*",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 15 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q016",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q016",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "20.0%",
+        "*/8",
+        "9.3%",
+        "1.6%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 274 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q017",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0/*",
+        "*/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 7 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q017",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/7",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 7 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q017",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0.0%",
+        "*/14",
+        "2.3%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 61 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q017",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/17",
+        "0/7",
+        "6.3%",
+        "0.6%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 229 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q017",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/11",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q017",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "*/11",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 42 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q017",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "*/*",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 15 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q017",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q017",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "15.0%",
+        "*/8",
+        "5.6%",
+        "1.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 274 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q018",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0.0%",
+        "0/*",
+        "0/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 7 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q018",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/7",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 7 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q018",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0.0%",
+        "0/14",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q018",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/17",
+        "0/7",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 229 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q018",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/11",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q018",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "0/11",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 42 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q018",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0/*",
+        "0/*",
+        "0/12",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 15 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q018",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q018",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "5.0%",
+        "0/8",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 274 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q019",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0/*",
+        "*/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q019",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/5",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q019",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "*/16",
+        "5.4%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 56 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q019",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/11",
+        "0/*",
+        "11.4%",
+        "1.1%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 147 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q019",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/6",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q019",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "*/10",
+        "0/14",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 29 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q019",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "*/*",
+        "0/*",
+        "0/9",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 11 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q019",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q019",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "5/15",
+        "*/5",
+        "9.8%",
+        "2.5%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 191 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q020",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0/*",
+        "*/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q020",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/5",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q020",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "*/16",
+        "5.4%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 56 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q020",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/11",
+        "0/*",
+        "11.4%",
+        "1.1%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 147 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q020",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/6",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q020",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "*/10",
+        "0/14",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 29 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q020",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "*/*",
+        "0/*",
+        "0/9",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 11 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q020",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q020",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/15",
+        "*/5",
+        "9.8%",
+        "2.5%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 191 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q021",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0/*",
+        "*/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q021",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/5",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q021",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0.0%",
+        "*/16",
+        "2.7%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 56 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q021",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/11",
+        "0/*",
+        "6.8%",
+        "1.1%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 147 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q021",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/6",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q021",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "*/10",
+        "0/14",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 29 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q021",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "*/*",
+        "0/*",
+        "0/9",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 11 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q021",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q021",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/15",
+        "*/5",
+        "5.9%",
+        "1.7%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 191 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q022",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0.0%",
+        "0/*",
+        "0/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q022",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/5",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q022",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0.0%",
+        "0/16",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q022",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/11",
+        "0/*",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q022",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "0/6",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q022",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "0/10",
+        "0/14",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 29 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q022",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0/*",
+        "0/*",
+        "0/9",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 11 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q022",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q022",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/15",
+        "0/5",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 191 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q023",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "1.0",
+        "0.0",
+        "0.5",
+        "0.5",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q023",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.6",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q023",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.8",
+        "0.0",
+        "1.1",
+        "0.7",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 71 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q023",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.5",
+        "0.2",
+        "0.8",
+        "0.4",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 309 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q023",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.7",
+        "0.5",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 15 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q023",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.8",
+        "0.5",
+        "0.9",
+        "0.5",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 48 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q023",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "1.0",
+        "0.5",
+        "0.8",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 15 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q023",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q023",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.6",
+        "0.3",
+        "0.8",
+        "0.5",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 356 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q024",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "1.0",
+        "0.0",
+        "0.0",
+        "6.0",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q024",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q024",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "4.0",
+        "0.0",
+        "7.5",
+        "25.0",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q024",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "7.0",
+        "0.0",
+        "11.2",
+        "218.0",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q024",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q024",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "2.0",
+        "0.0",
+        "3.7",
+        "0.0",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q024",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "1.0",
+        "0.0",
+        "0.0",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q024",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q024",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "4.8",
+        "7.5",
+        "12.4",
+        "85.0",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 15 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q025",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0.0%",
+        "*/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q025",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q025",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0/*",
+        "0/*",
+        "0/6",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q025",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/8",
+        "0/5",
+        "0/11",
+        "3.1%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 56 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q025",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q025",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "0.0%",
+        "0/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q025",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q025",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q025",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/9",
+        "0/5",
+        "0/12",
+        "2.8%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 62 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q026",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0.0%",
+        "*/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q026",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q026",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0/*",
+        "0/*",
+        "0/6",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q026",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/8",
+        "0/5",
+        "0/11",
+        "3.1%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 56 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q026",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q026",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "0.0%",
+        "0/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q026",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q026",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q026",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/9",
+        "0/5",
+        "0/12",
+        "2.8%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 62 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q027",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0.0%",
+        "0.0%",
+        "*/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q027",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q027",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0/*",
+        "0/*",
+        "0/*",
+        "0/6",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q027",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/8",
+        "0/5",
+        "0/11",
+        "3.1%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 56 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q027",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q027",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/*",
+        "0/*",
+        "0.0%",
+        "0/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q027",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0/*",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q027",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "0.0%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q027",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "*/9",
+        "0/5",
+        "0/12",
+        "2.8%",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 62 ART cycles.",
+      "FractionalDataMessage": "\u00a5 Fractions are used for rates with denominators less than 20.",
+      "SupressedDataMessage": "<span style='display: inline-block; width: 12px; vertical-align: top'>*</span><span style='display: inline-block; width: calc(100% - 12px)'>Reported sample size of 1 through 4 have been suppressed. Data that can be used to derive suppressed cell values are also suppressed.</span>",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q028",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "1.0",
+        "0.0",
+        "0.0",
+        "1.5",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q028",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "1.0",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q028",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "1.0",
+        "2.0",
+        "2.0",
+        "2.2",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 9 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q028",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "1.6",
+        "1.8",
+        "1.8",
+        "1.9",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 56 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q028",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q028",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "1.5",
+        "2.0",
+        "0.0",
+        "1.5",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 5 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q028",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "3.0",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q028",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q028",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "1.6",
+        "1.8",
+        "1.8",
+        "1.9",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 62 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q029",
+      "FilterId": "F001",
+      "TableHeader": "Filter: Diagnosis - Tubal factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "1.0",
+        "0.0",
+        "0.0",
+        "0.7",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q029",
+      "FilterId": "F002",
+      "TableHeader": "Filter: Diagnosis - Uterine factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "1.0",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q029",
+      "FilterId": "F003",
+      "TableHeader": "Filter: Diagnosis - Ovulatory dysfunction",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "1.0",
+        "0.5",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 18 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q029",
+      "FilterId": "F004",
+      "TableHeader": "Filter: Diagnosis - Diminished ovarian reserve",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.5",
+        "0.0",
+        "0.7",
+        "0.4",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 102 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q029",
+      "FilterId": "F005",
+      "TableHeader": "Filter: Diagnosis - Endometriosis",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "1.0",
+        "0.0",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q029",
+      "FilterId": "F006",
+      "TableHeader": "Filter: Diagnosis - Male factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.3",
+        "0.0",
+        "0.0",
+        "0.3",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 8 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q029",
+      "FilterId": "F007",
+      "TableHeader": "Filter: Diagnosis - Recurrent pregnancy loss",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "1.0",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on * ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    },
+    {
+      "QuestionId": "Q029",
+      "FilterId": "F008",
+      "TableHeader": "Filter: Diagnosis - Unexplained factor",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "False"
+      ],
+      "CycleCountMessage": "Clinic information based on 0 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": true,
+      "FootNoteType": "0"
+    },
+    {
+      "QuestionId": "Q029",
+      "FilterId": "F009",
+      "TableHeader": "Filter: Diagnosis - Not Found",
+      "RowHeaders": [
+        "",
+        "<35",
+        "35-37",
+        "38-40",
+        ">40",
+        "ShowChart"
+      ],
+      "DataRows": [
+        "Clinic",
+        "0.5",
+        "0.0",
+        "0.7",
+        "0.5",
+        "True"
+      ],
+      "CycleCountMessage": "Clinic information based on 112 ART cycles.",
+      "FractionalDataMessage": "",
+      "SupressedDataMessage": "",
+      "HideTableUI": false,
+      "FootNoteType": ""
+    }
+  ]
+}
